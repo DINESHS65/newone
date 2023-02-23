@@ -1,4 +1,6 @@
-* {
+
+@media screen and (max-width:37.5em){
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,4 +45,5 @@ h1 {
   transform: translate(-50%, -50%);
   font-size: 250px;
  mix-blend-mode: multiply;
+}
 }
