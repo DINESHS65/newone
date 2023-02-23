@@ -40,6 +40,6 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20rem;
+  font-size: 19rem;
   mix-blend-mode: multiply;
 }
