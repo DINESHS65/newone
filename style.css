@@ -5,7 +5,7 @@
   background-color: black;
 }
 .container {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   position: relative;
   overflow: hidden;
@@ -42,4 +42,11 @@ h1 {
   transform: translate(-50%, -50%);
   font-size: 19rem;
   mix-blend-mode: multiply;
+}
+
+@media only screen and (max-width:420px;)
+{
+  .container{
+  width:420px;
+  }
 }
